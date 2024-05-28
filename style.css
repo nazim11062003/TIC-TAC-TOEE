@@ -1,0 +1,57 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    background-color: #2F3061;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+.heading{
+    color: #DFDFDF;
+    font-size: 3vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.game_box{
+    width: 40vw;
+    height: 50vh;
+    /* background-color:#5F5980; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+.boxes{
+    width: 10vw;
+    height: 15vh;
+    border: none;
+    border-radius: 2vh;
+    background-color: #5F5980;
+    color: #DFDFDF;
+    font-size: 4vw;
+}
+.boxes:hover{
+    cursor: pointer;
+}
+#reset{
+    width: 9vw;
+    height: 7vh;
+    border:none;
+    border-radius: 2vh;
+    background-color:#000000;
+    color: #DFDFDF;
+}
+#reset:hover{
+    cursor: pointer;
+}
